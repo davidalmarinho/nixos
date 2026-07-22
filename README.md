@@ -2,6 +2,8 @@
 
 Modular, multi-user, and multi-host NixOS configuration powered by Nix Flakes and Home Manager.
 
+For a beginner-friendly guide on adding apps and users, see [CONTRIBUTING.md](file:///etc/nixos/CONTRIBUTING.md).
+
 ## Repository Tree
 
 ```
