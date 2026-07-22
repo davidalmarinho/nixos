@@ -3,9 +3,10 @@
 
 {
   imports = [
-    ../../modules/common.nix
-    ../../modules/hyprland.nix
-    ../../modules/nvidia.nix
+    ../../modules/core/common.nix
+    ../../modules/desktop/hyprland.nix
+    ../../modules/hardware/nvidia.nix
+    ../../users/david
     ./hardware-configuration.nix
   ];
 

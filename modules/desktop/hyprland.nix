@@ -1,4 +1,4 @@
-# modules/hyprland.nix
+# modules/desktop/hyprland.nix
 { config, pkgs, ... }:
 
 {

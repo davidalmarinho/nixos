@@ -26,7 +26,7 @@
             useGlobalPkgs = true;
             useUserPackages = true;
             extraSpecialArgs = { inherit inputs; };
-            users.david = import ./hosts/gigabyte-g5kf/home.nix;
+            users.david = import ./users/david/home.nix;
             backupFileExtension = "backup";
           };
         }

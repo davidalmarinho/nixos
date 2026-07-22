@@ -1,4 +1,4 @@
-# modules/nvidia.nix
+# modules/hardware/nvidia.nix
 { config, pkgs, ... }:
 
 {

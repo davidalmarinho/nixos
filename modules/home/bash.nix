@@ -1,13 +1,7 @@
-{ config, pkgs, inputs, ... }:
+# modules/home/bash.nix
+{ config, pkgs, ... }:
+
 {
-  home.username = "david";
-  home.homeDirectory = "/home/david";
-  home.stateVersion = "26.05";
-
-  home.packages = [
-    inputs.antigravity-nix.packages.${pkgs.system}.google-antigravity-cli
-  ];
-
   programs.bash = {
     enable = true;
     shellAliases = {
