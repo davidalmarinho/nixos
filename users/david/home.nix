@@ -5,6 +5,7 @@
   imports = [
     ../../modules/home/bash.nix
     ../../modules/home/antigravity.nix
+    ../../modules/home/hyprland.nix
   ];
 
   home.username = "david";
