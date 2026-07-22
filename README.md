@@ -26,7 +26,8 @@ For a beginner-friendly guide on adding apps and users, see [CONTRIBUTING.md](fi
     ├── desktop/
     │   └── hyprland.nix       # Hyprland compositor & XDG portals
     ├── hardware/
-    │   └── nvidia.nix         # NVIDIA drivers & Wayland vars
+    │   ├── nvidia.nix         # NVIDIA drivers & Wayland vars
+    │   └── tuxedo.nix         # Tuxedo/Clevo drivers & fan control
     └── home/
         ├── antigravity.nix    # Antigravity CLI package module
         └── bash.nix           # Reusable shell profile & aliases

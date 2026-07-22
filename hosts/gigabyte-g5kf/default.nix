@@ -6,6 +6,7 @@
     ../../modules/core/common.nix
     ../../modules/desktop/hyprland.nix
     ../../modules/hardware/nvidia.nix
+    ../../modules/hardware/tuxedo.nix
     ../../users/david
     ./hardware-configuration.nix
   ];
